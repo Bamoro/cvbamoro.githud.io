@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;       /*style gbobal*/
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    background-color: gray;
+    color: honeydew;       /*style body*/
+}
+.bold
+   {color: black;
+    font-weight: 700;    /*titre en noir avec bare blanc*/
+    font-size: 16px;
+   padding: 20px 0;
+   border-bottom: 2px solid cornsilk;
+
+}
+.largeurcv{
+    width: 800px;
+    height: auto;        /*style largeur gbobal 800 px centré avec bordure haut et bas*/
+    display: flex;
+    margin: 50px auto;
+}
+.cvgauche {width: 280px;          /*style cv à gauche */
+   background-color: #008b8b;}
+
+.cvdroit {width: 520px; background-color:midnightblue;} /*style cv à droite plus couleur */
+
+
+/*alignement des elements avec bordure  */
+.presentation{
+    padding: 0 25px;
+    padding-top: 10px;
+}
+.competence { 
+    padding: 0 25px;
+    padding-top: 10px;
+}
+
+.logiciel{
+    padding: 0 25px;
+    padding-top: 10px;
+}
+
+.langue{
+    padding: 0 25px;
+    padding-top: 10px;
+}
+.interet{
+    padding: 0 25px;
+    padding-top: 10px;}
+.langu{
+    padding: 0 25px;
+    padding-top: 10px;
+    }
+    .postion_gauche { 
+        padding: 0 25px;
+    padding-top: 10px;
+    }
+
+    /*les titre algné et couleur */
+.titre{ 
+    padding: 0 25px;
+padding-top: 10px;
+color: cyan;
+}
+/*les titre algné et couleur avec bare */
+.bold2
+   {color: rgb(196, 248, 7);
+    font-weight: 700;
+    font-size: 16px;
+   padding: 20px 0;
+   border-bottom: 2px solid cornsilk;
+
+} /*les titre algné avec couleur  */
+.titre2{ 
+    padding: 0 25px;
+padding-top: 10px;
+
+color: bisque;
+}
